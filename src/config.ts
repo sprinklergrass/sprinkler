@@ -1,0 +1,6 @@
+export const DAPP_ADDRESS = "3EMB9bPnEhtcFLUkKBvtq5c8SijDuRSYFsd"
+export const USER_SEED = 'runway uncover train subject anger slow easy weapon unfair usage say flat demand soon zero'
+export const CHAIN_ID = 'A'
+export const DEVICE = '3EMB9bPnEhtcFLUkKBvtq5c8SijDuRSYFsd'
+export const BACKEND = 'https://gion.pagekite.me/api/sprinkler'
+export const AUTH = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3ByaW5rbGVyIiwianRpIjoiMGU0YmNkNTEtNGVmOS00MTZiLThjNzItMTM4OWFhNzM3YmMxIiwiZXhwIjoxNjc4OTg5NjEyLCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.Ke7psDA4HfBodcsXAi7oq9Znat--EMxGXCQpIWD0dcg'
