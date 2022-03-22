@@ -21,9 +21,9 @@ const WeatherDay = (props: any) => {
   return (
     <div>
       <select disabled={!props.active} style={style} value={props.weather ?? "none"} onChange={(e) => {setDayWeather(e.target.value)}}>
-        <option value="sun">Brak opadów</option>
-        <option value="rain">Opady</option>
-        <option value="none">Brak danych</option>
+        <option value="sun">No rainfall</option>
+        <option value="rain">Rainfall</option>
+        <option value="none">No data available</option>
       </select>
     </div>
   )

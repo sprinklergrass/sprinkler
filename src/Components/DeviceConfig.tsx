@@ -54,9 +54,9 @@ const DeviceConfig = (props: any): ReactElement => {
 
   return (
     <div style={{float: 'left', paddingLeft: '8%', width:'42%', background: '#299e4c', color: 'white', minHeight: '500px' }}>
-      <h2>Ustawienia</h2>
+      <h2>Settings</h2>
 
-      <p style={{fontSize: '20px'}}>Godzina włączenia zraszacza</p>
+      <p style={{fontSize: '20px'}}>Time of sprinkler activation</p>
       <TimeField
         style={timeStyle}
         value={dateToTime(props.startDate)}
@@ -64,7 +64,7 @@ const DeviceConfig = (props: any): ReactElement => {
         colon=":"
       />
 
-      <p style={{fontSize: '20px'}}>Czas zraszania</p>
+      <p style={{fontSize: '20px'}}>Spraying time [hh:mm]</p>
       <TimeField
         style={timeStyle}
         value={'00:00'}
@@ -72,7 +72,7 @@ const DeviceConfig = (props: any): ReactElement => {
         colon=":"
       />
 
-      <p style={{fontSize: '20px'}}>Liczba dni</p>
+      <p style={{fontSize: '20px'}}>Set repeating [day]</p>
       <select  value={days.toString()} style={timeStyle} onChange={(e) => {setDays(Number(e.target.value))}}>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -81,7 +81,7 @@ const DeviceConfig = (props: any): ReactElement => {
       </select>
       <br/><br/><br/><br/>
 
-      <button style={timeStyle} onClick={saveSettings}>Zapisz</button>
+      <button style={timeStyle} onClick={saveSettings}>Save</button>
     </div>
 
 
