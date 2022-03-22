@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/scp/static/css/main.8267fd7b.css",
-    "main.js": "/scp/static/js/main.d37a828a.js",
-    "index.html": "/scp/index.html",
-    "main.8267fd7b.css.map": "/scp/static/css/main.8267fd7b.css.map",
-    "main.d37a828a.js.map": "/scp/static/js/main.d37a828a.js.map"
+    "main.css": "/sprinkler/static/css/main.8267fd7b.css",
+    "main.js": "/sprinkler/static/js/main.d37a828a.js",
+    "index.html": "/sprinkler/index.html",
+    "main.8267fd7b.css.map": "/sprinkler/static/css/main.8267fd7b.css.map",
+    "main.d37a828a.js.map": "/sprinkler/static/js/main.d37a828a.js.map"
   },
   "entrypoints": [
     "static/css/main.8267fd7b.css",
